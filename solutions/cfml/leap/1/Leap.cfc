@@ -1,0 +1,21 @@
+/**
+* Your implementation of the Leap exercise
+*/
+component {
+	
+	/**
+	* @year The input year to consider
+	*
+	* @returns A boolean for whether the inputted year is true or false
+	*/
+	 function leapYear( year ) {
+		// Implement me here
+        if( year % 100 == 0 && year % 400 != 0 )
+            return false;
+        if(year % 4 == 0){
+            return true;
+        }
+        return false;
+	}
+	
+}
